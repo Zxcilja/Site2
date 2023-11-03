@@ -1,0 +1,196 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital@1&display=swap');
+
+body {
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    background: #0f141e;
+    color: #f1f1f1;
+}
+
+
+.container {
+    max-width: 750px;
+    margin: auto;
+    padding-top: 30px;
+}
+
+.info {
+  margin-left: 15px;
+  display: flex;
+
+}
+   
+.info-text {
+  margin-bottom: 40px;
+ margin-left: 20px;
+}
+
+.avatar {
+   width: 350px; 
+   border-radius: 30px;
+   box-shadow: 4px 4px 14px rgba(0, 0, 0, .25);
+}
+
+
+.info-text h1{
+    color: rgb(250, 0, 75);
+}
+
+
+.info-text p {
+    font-style: italic;
+    font-weight: bold;
+    color: #c00b75;
+    margin: 0;
+}
+ 
+.info-text-1 {
+  padding: 15px;
+}
+ 
+@media (max-width: 650px) {
+  .info {
+   display: block;
+   text-align: center;
+  }
+}
+
+
+
+
+.info-text-1 h1 {
+ color: aquamarine;
+}
+
+.info-text-1 a { 
+ border: 2px solid rgb(1, 245, 172);
+}
+
+
+.card {
+    color: rgb(0, 0, 0) ;
+    border-radius: 20px;
+    padding: 15px 20px;
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+ 
+
+.bg-yellow {
+    background: greenyellow;
+}
+
+.bg-red {
+    background: #0096fa;
+}
+
+a {
+    color: red;
+    text-decoration: none;
+    transition: all .2s;
+}
+
+ a:hover {
+    color: #fff;
+    font-size: 2rem;
+    text-decoration: underline;
+ }
+
+  a:visited {
+    color: greenyellow;
+  }
+
+  a:active {
+    color: blue;
+  }
+
+  .btn {
+    background: black;
+    padding: 15px 20px;
+    color: #f1f1f1;
+    border: none;
+    font-family: inherit;
+    cursor: pointer;
+  }
+
+  .btn:hover {
+    opacity: 0.8;
+  }
+
+
+
+
+
+ .list {
+  padding: 0;
+  list-style: none;
+ }
+
+ .list li {
+  color: #c00b75;
+  margin-bottom: 10px;
+  border-bottom: 2px solid black;
+  padding-bottom: 5px;
+ }
+
+ .table {
+  width: 100%;
+ }
+
+ .table td {
+  padding-bottom: 10px;
+ }
+
+ .table td:nth-child(2), .table td:nth-child(3) {
+  color: rgb(173, 29, 10);
+ }
+
+ .form h1 {
+  text-align: center;
+ }
+
+ .data label {
+ display: block;
+ font-size: 20px;
+ color: wheat;
+ }
+
+ .data input, .data textarea  {
+  width: 100%;
+  box-sizing: border-box;
+  border: none;
+  background: transparent;
+  border-bottom: 1px solid #ccc;
+  color: white;
+  padding: 15px 0 10px;
+  outline: none;
+  font-family: inherit;
+ }
+
+ .form-row {
+  margin-bottom: 10px;
+  display: flex;
+ }
+
+ .form-row .data {
+  /* display: inline-block; */
+  margin-right: 20px;
+  width: 50%;
+  /* width: calc(50%-20px); */
+ }
+
+
+
+ @media (max-width:650px) {
+  .form-row {
+    display: block;
+  }
+
+  .form-row .data {
+    width: 100%;
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
+}
